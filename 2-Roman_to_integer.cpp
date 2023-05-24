@@ -1,12 +1,13 @@
 /*
 13. Roman to Integer
 FEITO EM 24 DE MARÇO DE 2023
-Testes:
+# TESTES:
     - XVIII -> 18
     - XIV   -> 14
     - XIX   -> 19
-EXPLICAÇÃO:
+# TIME COMPLEXITY:
     O(n)
+# EXPLICAÇÃO:
     Com apenas um loop iterando a string de parâmetro faço comparações entre
     o caracter lido na string e o seu sucessor. Em números romanos, os números
     geralmente são organizados do maior para o menor (Ex. XV -> 10 > 5, logo soma obtendo 15). Vemos então

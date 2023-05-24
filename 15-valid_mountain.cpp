@@ -1,13 +1,14 @@
 /*
 Valid Mountain Array
 FEITO EM 23/05/2023
-Testes:
+# TESTES:
     - {0,1,2,1,0}           -> True
     - {1,2}                 -> False
     - {0,1,2,1,2,0}         -> False
     - {9,8,7,6,5,4,3,2,1,0} -> False
-EXPLICAÇÃO:
+# TIME COMPLEXITY:
     O(n)
+# EXPLICAÇÃO:
     Com apenas um loop iterando de 0 a arr.size() - 1 utilizo 3 variáveis de controle
     inicializadas como false. O objetivo é que ao fim do programa as 3 variáveis estejam
     com valor true para que a montanha de array seja válida.

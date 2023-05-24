@@ -1,11 +1,12 @@
 /*
 876. Middle of the Linked List
 FEITO EM 21 DE MARÇO DE 2023
-Testes:
+# TESTES:
     - {1,2,3,4,5,6} -> {4,5,6}
     - {1,2,3,4,5}   -> {3,4,5}
-EXPLICAÇÃO:
+# TIME COMPLEXITY:
     O(n)
+# EXPLICAÇÃO:
     # Explicação da forma otimizada:
     Com apenas um loop iterando de head até o ponteiro null (nullptr), utilizo uma variável temp e 
     atualizo o ponteiro head. A idéia é fazer com que temp percorra 2x mais rápido, isso implica 

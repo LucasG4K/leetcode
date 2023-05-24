@@ -1,15 +1,16 @@
 /*
 9. Palindrome Number
 FEITO EM 24 DE MARÇO DE 2023
-Testes:
+# TESTES:
     - 1          -> True
     - 11         -> True
     - 101        -> True
     - 1221       -> True
     - 1234       -> False
     - 1234567899 -> False
-EXPLICAÇÃO:
+# TIME COMPLEXITY:
     O(n)
+# EXPLICAÇÃO:
     Em uma iteração pelo inteiro, fazemos a divisão por 10 do x original até que obtenhamos 0.
     Fazendo isso, estamos pegando o resto da divisão do número decimal (base 10).
     O resto da divisão indica cada algarismo decorrente da divisão por 10 de modo que decompomos o número

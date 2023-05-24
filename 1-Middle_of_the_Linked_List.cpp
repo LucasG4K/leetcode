@@ -1,6 +1,6 @@
 /*
 876. Middle of the Linked List
-FEITO EM MARÇO DE 2023
+FEITO EM 21 DE MARÇO DE 2023
 Testes:
     - {1,2,3,4,5,6} -> {4,5,6}
     - {1,2,3,4,5}   -> {3,4,5}

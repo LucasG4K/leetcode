@@ -9,11 +9,11 @@ FEITO EM 10 DE MAIO DE 2023
     O(n²)
     O(?) forma otimizada
 # EXPLICAÇÃO:
-    - Utilizando o método de força bruta, faz as comparações elemento a elemento
-    até que encontremos dois números (que não sejam os de mesma posição) que somados
-    sejam o valor de target. Assim, retornamos os seus índices.
+    - Utilizando o método de força bruta, faz as comparações do elemento e os demais a sua
+    direita até que encontre dois números que somados tenham o valor de target. Assim, 
+    retornamos os seus índices.
     - Como melhorar?
-    ???
+    hash map!
 */
 
 #include <bits/stdc++.h>
@@ -23,8 +23,8 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         for (int i = 0; i < nums.size(); ++i) {
-            for (int j = 0; j < nums.size(); ++j) {
-                if(nums[i] + nums[j] == target && i != j) {
+            for (int j = i + 1; j < nums.size(); ++j) {
+                if(nums[i] + nums[j] == target) {
                     return {i,j};
                 }
             }
